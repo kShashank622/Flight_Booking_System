@@ -73,11 +73,11 @@ int main() {
 
     int graph[MAX_CITIES][MAX_CITIES] = {
         // Replace with your actual connections and costs
-        {0, 10, 15, 0, 0},
-        {10, 0, 30, 40, 0},
-        {15, 30, 0, 0, 20},
-        {0, 40, 0, 0, 25},
-        {0, 0, 20, 25, 0}
+        {0, 1000, 1500, 0, 0},
+        {1000, 0, 3000,4000, 0},
+        {1500, 3000, 0, 0, 2000},
+        {0, 4000, 0, 0, 2500},
+        {0, 0, 2000, 2500, 0}
     };
 
     int src_choice, dest_choice;
